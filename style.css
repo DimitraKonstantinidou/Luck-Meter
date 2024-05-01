@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(250, 221, 183);
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;  
+    justify-content: center;    
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(22, 114, 74);
+}
+
+ p {
+    width: 50%;
+    margin: 5px auto;   
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7rem;
+    color: rgb(130, 84, 35);
+}
+      
+
+
+button {
+    width: auto;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5%;
+    background-color: rgb(29, 151, 98);
+    color: white;
+    font-family: "Lobster", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    transition: background-color 0.3s; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:  rgb(39, 195, 128);
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        width: 80%; 
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 1.5rem; 
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}
