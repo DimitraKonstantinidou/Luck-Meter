@@ -1,2 +1,1 @@
-# Luck-Meter
-A Luck Meter project to generate random luck scores, ranging from unfortunate to exceptionally lucky.
+Luck Meter is a project, in whick you can click the "Spin the Wheel of Fortune!" button and discover your luck score displayed as a percentage (0-100%).
